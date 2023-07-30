@@ -1,0 +1,7 @@
+<app-cabecalho></app-cabecalho>
+<main>
+    <div id="noticia" *ngFor="let card of this.Nservice.card_noticias">
+        <a [href]="card.url"><img [src]="card.multimedia[2].url" alt=""></a>
+        <p>{{card.title}}</p>
+    </div>
+</main>
