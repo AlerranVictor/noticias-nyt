@@ -19,9 +19,11 @@ main{
 
 section{
     display: flex;
+    overflow: hidden;
     align-self: center;
     justify-self: center;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     background-color: #F5F5F5;
