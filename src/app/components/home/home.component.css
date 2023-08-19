@@ -10,6 +10,15 @@ body{
 
 main{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F5F5;
+    width: 100%;
+    height: 100%;
+}
+
+section{
+    display: flex;
     align-self: center;
     justify-self: center;
     flex-direction: column;
