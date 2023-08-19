@@ -35,8 +35,9 @@ section{
 #noticia{
     display: flex;
     flex-direction: column;
+    overflow: hidden;
     width: 300px;
-    height: auto;
+    height: 223px;
     background-color: #F2EAD3;
     margin-bottom: 15px;
     margin-left: 15px;
