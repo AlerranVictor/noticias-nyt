@@ -11,7 +11,7 @@ export class CabecalhoComponent {
 
   mostrarMenu(){
     let control = 0
-    const barras = document.getElementById('barras')
+    const barras = document.getElementById('botao-barras')
     const barraOpen = document.getElementById('barraOpen')
 
     if (control === 0){
