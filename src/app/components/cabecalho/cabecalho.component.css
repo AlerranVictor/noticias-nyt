@@ -30,9 +30,32 @@ main{
     background-color: #DFD7BF;
 }
 
+.menu-invisivel{
+    display: none;
+}
+
+.menu-visivel{
+    display: flex;
+    position: absolute;
+    max-width: 100px;
+    max-height: 100px;
+    overflow: hidden;
+    flex-direction: column;
+    background-color: #DFD7BF;
+}
+
 #barras{
     height: 16px;
     width: 17px;
+}
+
+.menu-visivel{
+    display: none;
+    position: absolute;
+    background-color: #DFD7BF;
+    width: auto;
+    max-width: 100px;
+
 }
 
 #img{
