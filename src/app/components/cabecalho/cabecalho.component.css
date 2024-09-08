@@ -49,15 +49,6 @@ main{
     width: 17px;
 }
 
-.menu-visivel{
-    display: none;
-    position: absolute;
-    background-color: #DFD7BF;
-    width: auto;
-    max-width: 100px;
-
-}
-
 #img{
     height: 20px;
     width: 35px;
